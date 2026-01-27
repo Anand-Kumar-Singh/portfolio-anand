@@ -6,7 +6,7 @@ interface UseScrollAnimationOptions {
 }
 
 export const useScrollAnimation = <T extends HTMLElement>(
-  ref: RefObject<T>,
+  ref: RefObject<T | null>,
   options: UseScrollAnimationOptions = {}
 ): boolean => {
   const [isVisible, setIsVisible] = useState(false);
