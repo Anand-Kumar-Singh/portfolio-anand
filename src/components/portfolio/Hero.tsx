@@ -53,20 +53,20 @@ const Hero: React.FC = () => {
         <S.HeroImage>
           <S.IllustrationContainer>
             <S.TechIcon position={1}>
-              <S.TechLogo src="/images/springboot.png" alt="Spring Boot" />
+              <S.TechLogo src={getImagePath("/images/springboot.png")} alt="Spring Boot" />
             </S.TechIcon>
             <S.TechIcon position={2}>
-              <S.TechLogo src="/images/reactjs.png" alt="React" />
+              <S.TechLogo src={getImagePath("/images/reactjs.png")} alt="React" />
             </S.TechIcon>
             <S.TechIcon position={3}>
-              <S.TechLogo src="/images/javascript.png" alt="JavaScript" />
+              <S.TechLogo src={getImagePath("/images/javascript.png")} alt="JavaScript" />
             </S.TechIcon>
             <S.TechIcon position={4}>
-              <S.TechLogo src="/images/java.png" alt="Java" />
+              <S.TechLogo src={getImagePath("/images/java.png")} alt="Java" />
             </S.TechIcon>
             <S.DeveloperImageWrapper>
               <S.DeveloperImg 
-                src="/images/profile.png" 
+                src={getImagePath("/images/profile.png")} 
                 alt="Anand Singh - Full Stack Developer"
               />
             </S.DeveloperImageWrapper>
