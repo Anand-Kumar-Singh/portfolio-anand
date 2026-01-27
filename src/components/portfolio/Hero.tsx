@@ -5,6 +5,12 @@ import React from 'react';
 import Button from '../common/Button';
 import * as S from './styles/Hero.styles';
 
+// Helper function to handle basePath for images
+const getImagePath = (path: string) => {
+  const basePath = process.env.NODE_ENV === 'production' ? '/portfolio-anand' : '';
+  return `${basePath}${path}`;
+};
+
 const Hero: React.FC = () => {
   const ArrowIcon = (
     <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
