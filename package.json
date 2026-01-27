@@ -1,0 +1,32 @@
+{
+  "name": "portfolio-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.0",
+    "@emotion/server": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@types/nodemailer": "^7.0.5",
+    "axios": "^1.6.2",
+    "next": "^14.2.0",
+    "nodemailer": "^7.0.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.10",
+    "@types/react": "^19.2.9",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^8",
+    "eslint-config-next": "^14.2.0",
+    "typescript": "^5.9.3"
+  }
+}
