@@ -1,21 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',  // Enable static export for GitHub Pages
   reactStrictMode: true,
   compiler: {
     emotion: true,
   },
-  // Proxy API requests to Spring Boot backend
-  async rewrites() {
-    return [
-      {
-        source: '/api/:path*',
-        destination: 'http://localhost:8080/api/:path*',
-      },
-    ];
-  },
   images: {
-    domains: ['localhost'],
+    unoptimized: true,  // Required for static export
   },
+  basePath: '/portfolio-anand',  // Your GitHub repo name
+  assetPrefix: '/portfolio-anand',
 };
 
 module.exports = nextConfig;
