@@ -314,18 +314,6 @@ const Contact: React.FC = () => {
             <ContactDetails>
               <ContactItem>
                 <ContactIcon>
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                    <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke="currentColor" strokeWidth="2"/>
-                  </svg>
-                </ContactIcon>
-                <ContactItemText>
-                  <h4>Email</h4>
-                  <p>anandkumarsingh2413@gmail.com</p>
-                </ContactItemText>
-              </ContactItem>
-              
-              <ContactItem>
-                <ContactIcon>
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/>
                     <circle cx="4" cy="4" r="2"/>
@@ -333,7 +321,7 @@ const Contact: React.FC = () => {
                 </ContactIcon>
                 <ContactItemText>
                   <h4>LinkedIn</h4>
-                  <p>linkedin.com/in/anandsingh</p>
+                  <p>linkedin.com/in/anand-singh13</p>
                 </ContactItemText>
               </ContactItem>
             </ContactDetails>

@@ -12,8 +12,7 @@ export const VERSION = '2.0.0' as const;
 
 // Social Links
 export const SOCIAL_LINKS = {
-  GITHUB: 'https://github.com/anandsingh',
-  LINKEDIN: 'https://linkedin.com/in/anandsingh',
+  GITHUB: 'https://github.com/Anand-Kumar-Singh',
+  LINKEDIN: 'https://www.linkedin.com/in/anand-singh13/',
   TWITTER: 'https://twitter.com/anandsingh',
-  EMAIL: 'anandkumarsingh2413@gmail.com',
 } as const;
